@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Calorie Finder</string>
+    <string name="first_tab">first</string>
+    <string name="second_tab">second</string>
+    <string name="welcome_message">Welcome!</string>
+    <string name="fragment_food_list_chocolate">CHOCOLATE</string>
+    <string name="fragment_food_greens">GREENS</string>
+    <string name="fragment_food_list_meat">MEAT</string>
+    <string name="fragment_food_list_dessert">DESSERT</string>
+    <string name="fragment_food_list_water">WATER</string>
+    <string name="fragment_food_list_juice">JUICE</string>
+    <string name="fragment_food_list_wine">WINE</string>
+    <string name="fragment_food_list_energy_drink">ENERGY DRINK</string>
+    <string name="title_activity_food_list">Back</string>
+    <string name="action_search">search</string>
+</resources>

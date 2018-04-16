@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fragment_food_list_margin_outside">8dp</dimen>
+    <dimen name="fragment_food_list_margin_inside">4dp</dimen>
+    <dimen name="main_margin">8dp</dimen>
+
+    <dimen name="padding_bottom_about_row">12dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="login_button_size">48dp</dimen>
+    <dimen name="activityName_main_options_900dp_bottom_margin">8dp</dimen>
+    <dimen name="main_button_size">60dp</dimen>
+    <dimen name="row_main_size">60dp</dimen>
+    <dimen name="recycler_row_top_margin">4dp</dimen>
+    <dimen name="recycler_row_bottom_margin">4dp</dimen>
+    <dimen name="adicional_text_size">12dp</dimen>
+</resources>

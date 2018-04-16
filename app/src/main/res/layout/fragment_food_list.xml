@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginStart="@dimen/main_margin"
+    android:layout_marginEnd="@dimen/main_margin"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "0.5"
+        android:text="@string/welcome_message"
+        android:gravity="center"
+        android:textColor="@color/mainGrey"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = "0.5"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight = "0.5"
+            >
+
+            <LinearLayout
+                android:id="@+id/main_activity_pos_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "0.5"
+                android:layout_marginStart="@dimen/fragment_food_list_margin_outside"
+                android:layout_marginTop="@dimen/fragment_food_list_margin_outside"
+                android:layout_marginBottom="@dimen/fragment_food_list_margin_inside"
+                android:layout_marginEnd="@dimen/fragment_food_list_margin_inside"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:clickable="true"
+                tools:text="Iniciar Venda"
+                android:background="@drawable/background_grid_menu">
+
+
+                <ImageView
+                    android:id="@+id/fragment_food_list_pos_1_image"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/inclined_chocolate_bar"
+                    />
+
+                <TextView
+                    android:id="@+id/fragment_food_list_pos_1_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/main_state_tint"
+                    android:text="@string/fragment_food_list_chocolate"
+                    />
+            </LinearLayout >
+
+            <LinearLayout
+                android:id="@+id/main_activity_pos_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "0.5"
+                android:layout_marginStart="@dimen/fragment_food_list_margin_inside"
+                android:layout_marginTop="@dimen/fragment_food_list_margin_outside"
+                android:layout_marginEnd="@dimen/fragment_food_list_margin_outside"
+                android:layout_marginBottom="@dimen/fragment_food_list_margin_inside"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:clickable="true"
+                tools:text="Iniciar Venda"
+                android:background="@drawable/background_grid_menu">
+
+
+                <ImageView
+                    android:id="@+id/fragment_food_list_pos_2_image"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/salad"
+                    />
+
+                <TextView
+                    android:id="@+id/fragment_food_list_pos_2_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@drawable/main_state_tint"
+                    android:text="@string/fragment_food_greens"
+                    />
+            </LinearLayout >
+
+        </LinearLayout >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight = "0.5"
+            >
+
+            <LinearLayout
+                android:id="@+id/main_activity_pos_3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "0.5"
+                android:layout_marginStart="@dimen/fragment_food_list_margin_outside"
+                android:layout_marginTop="@dimen/fragment_food_list_margin_inside"
+                android:layout_marginBottom="@dimen/fragment_food_list_margin_outside"
+                android:layout_marginEnd="@dimen/fragment_food_list_margin_inside"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:clickable="true"
+                tools:text="Iniciar Venda"
+                android:background="@drawable/background_grid_menu">
+
+
+                <ImageView
+                    android:id="@+id/fragment_food_list_pos_3_image"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/meat"
+                    />
+
+                <TextView
+                    android:id="@+id/fragment_food_list_pos_3_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@drawable/main_state_tint"
+                    android:text="@string/fragment_food_list_meat"
+                    />
+            </LinearLayout >
+
+            <LinearLayout
+                android:id="@+id/main_activity_pos_4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight = "0.5"
+                android:layout_marginStart="@dimen/fragment_food_list_margin_inside"
+                android:layout_marginTop="@dimen/fragment_food_list_margin_inside"
+                android:layout_marginEnd="@dimen/fragment_food_list_margin_outside"
+                android:layout_marginBottom="@dimen/fragment_food_list_margin_outside"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:clickable="true"
+                tools:text="Iniciar Venda"
+                android:background="@drawable/background_grid_menu">
+
+
+                <ImageView
+                    android:id="@+id/fragment_food_list_pos_4_image"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/cake_slice"
+                    />
+
+                <TextView
+                    android:id="@+id/fragment_food_list_pos_4_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:textColor="@drawable/main_state_tint"
+                    android:text="@string/fragment_food_list_dessert"
+                    />
+            </LinearLayout >
+        </LinearLayout >
+    </LinearLayout >
+</LinearLayout>

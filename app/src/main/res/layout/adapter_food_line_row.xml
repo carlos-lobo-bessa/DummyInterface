@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginStart="@dimen/main_margin"
+    android:layout_marginTop="4dp"
+    android:layout_marginEnd="@dimen/main_margin"
+    android:layout_marginBottom="4dp"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/row_main_size"
+    android:padding="8dp"
+    android:orientation="horizontal"
+    android:background="@drawable/background_row_list"
+    android:clickable="true"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <TextView
+        android:id="@+id/adapter_food_line_row_lineName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textStyle="bold"
+        android:textColor="@drawable/main_state_tint"
+        tools:text="food"/>
+
+    <TextView
+        android:id="@+id/adapter_food_line_row_adicional_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textSize="@dimen/adicional_text_size"
+        android:textColor="@drawable/main_state_tint"
+        tools:text="desc"/>
+
+
+    <TextView
+        android:id="@+id/adapter_food_line_row_lineName_kal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:textStyle="bold"
+        android:textSize="16dp"
+        android:textColor="@drawable/main_state_tint"
+        tools:text="50"/>
+
+</RelativeLayout>
