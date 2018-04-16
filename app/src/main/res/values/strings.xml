@@ -12,5 +12,5 @@
     <string name="fragment_food_list_wine">WINE</string>
     <string name="fragment_food_list_energy_drink">ENERGY DRINK</string>
     <string name="title_activity_food_list">Back</string>
-    <string name="action_search">searchg</string>
+    <string name="action_search">search</string>
 </resources>
